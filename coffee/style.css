@@ -1,0 +1,65 @@
+/* style.css by Elike Kumahia */
+@font-face{
+  font-family: 'LeagueGothic';
+  src: url('type/LeagueGothic.eot');
+  src: url('type/LeagueGothic.eot?#iefix') format('embedded-opentype'),
+    url('type/LeagueGothic.woff') format('woff'),
+    url('type/LeagueGothic.ttf') format('truetype'),
+    url('type/LeagueGothic.svg#LeagueGothic13Regular') format('svg'); 
+}
+
+header{margin:auto;}
+
+#wholebody{background-color: white;
+padding-top: 10% ;
+padding-bottom: 10%;}
+
+#topbar{ margin:auto; padding-top: 3%;
+  max-width: 15%;}
+
+  nav{ display: inline-block ; max-width: ;background-color: rgb(35,11,3); padding-top: ; padding-bottom: ;color: rgb(176,156,127);
+
+  }
+
+nav,ul{ width: 100%; display: inline-block; margin: auto; text-align: center; }
+
+nav,ul, li {display: inline-block; margin: auto; padding-top: 1%; padding-bottom: 1%;
+max-width: 100%;
+}
+
+
+header{ background-image: url('images/beans.jpg'); background-repeat: no-repeat;}
+.para{max-width: 75%; position: static; padding-top: 1%; padding-left: 1%;
+margin: auto;
+color: black;
+border: 1px; border-style: dotted; border-color: orange;
+}
+.para1{ position: absolute;}
+body{background-color: rgb( 35,11,3) ;font: rgb(176,156,127);}
+
+footer {position: static; margin: auto; color: rgb(176,156,127);padding-top: 2%; padding-bottom: 2%; text-align: center;
+}
+
+a{color: rgb(176,156,127); text-transform: lowercase; text-decoration: none;}
+ /* rgb (35,11,3)
+
+/*
+div{position: fixed;
+  bottom:0px;
+  left: 0px;
+border-width: 2px; 
+border-style: groove;
+background-color: none;
+border-color: orange;
+display: inline;
+}
+
+p{position: relative;
+  left: 250px;
+	top: -10px;
+	left: 100px;}
+
+
+
+a:hover{ color:#884b4b;}
+#container{ color: #B80008;}*/

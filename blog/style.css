@@ -1,0 +1,36 @@
+/* style.css by Elike Kumahia */
+@font-face {
+  font-family: 'LeagueGothic';
+  src: url('type/LeagueGothic.eot');
+  src: url('type/LeagueGothic.eot?#iefix') format('embedded-opentype'),
+    url('type/LeagueGothic.woff') format('woff'),
+    url('type/LeagueGothic.ttf') format('truetype'),
+    url('type/LeagueGothic.svg#LeagueGothic13Regular') format('svg');
+}
+
+body{width: 950px;
+	color: black ;
+font-family: 'LeagueGothic'
+}
+.top{display: inline; text-decoration: none, black;}
+
+#navbar ul li{display:inline; text-align: right; text-decoration: bold;}
+
+nav{ display: inline; text-align: right; }
+
+ul{list-style-type: none;}
+
+
+a:hover {color: red; }
+	
+a{color: black; text-decoration: none; }
+
+
+
+#ilbody{position: relative;}
+
+
+#sidebar{float: left; display: inline-block; text-decoration: bold;}
+
+footer{ display: block; page-break-before: always; position: fixed;
+}
