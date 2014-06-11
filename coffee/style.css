@@ -8,39 +8,48 @@
     url('type/LeagueGothic.svg#LeagueGothic13Regular') format('svg'); 
 }
 
-header{margin:auto;}
+header{margin:auto;  background-image: url('images/beans.jpg');
+}
+
+nav{ display: inline-block ; max-width: 200px; background-color: rgb(35,11,3); padding-top: ; padding-bottom: ;color: rgb(176,156,127); height: 1%;
+}
+
+nav,ul{ width: 100%; height: 50px; display: inline-block; margin: auto; text-align: center; }
+
+nav,ul, li {display: inline-block; margin: auto; padding-top: 1%; padding-bottom: 1%;
+max-width: 100%;
+
+}
+
+footer {position: static; margin: auto; color: rgb(176,156,127);padding-top: 2%; padding-bottom: 2%; text-align: center;
+}
+
+a{color: rgb(176,156,127); text-transform: lowercase; text-decoration: none;
+}
+
+h3{font:rgb (35,11,3); text-transform: italic;}
 
 #wholebody{background-color: white;
 padding-top: 10% ;
 padding-bottom: 10%;}
 
 #topbar{ margin:auto; padding-top: 3%;
-  max-width: 15%;}
+  max-width: 10%; max-height: 10%;}
 
-  nav{ display: inline-block ; max-width: ;background-color: rgb(35,11,3); padding-top: ; padding-bottom: ;color: rgb(176,156,127);
-
-  }
-
-nav,ul{ width: 100%; display: inline-block; margin: auto; text-align: center; }
-
-nav,ul, li {display: inline-block; margin: auto; padding-top: 1%; padding-bottom: 1%;
-max-width: 100%;
+body{background-color: rgb( 35,11,3) ;font: rgb(176,156,127);
 }
 
+#organic{float: left; width: 40%; padding-right: 10px;}
 
-header{ background-image: url('images/beans.jpg'); background-repeat: no-repeat;}
-.para{max-width: 75%; position: static; padding-top: 1%; padding-left: 1%;
+#coffeebar{float:left; width: 60%; }
+
+.para {max-width: 75%; padding-top: 1%; padding-left: 1%;
 margin: auto;
 color: black;
-border: 1px; border-style: dotted; border-color: orange;
-}
-.para1{ position: absolute;}
-body{background-color: rgb( 35,11,3) ;font: rgb(176,156,127);}
-
-footer {position: static; margin: auto; color: rgb(176,156,127);padding-top: 2%; padding-bottom: 2%; text-align: center;
+ position: relative;
 }
 
-a{color: rgb(176,156,127); text-transform: lowercase; text-decoration: none;}
+.foot{ margin: auto;}
  /* rgb (35,11,3)
 
 /*

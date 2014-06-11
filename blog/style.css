@@ -1,36 +1,56 @@
 /* style.css by Elike Kumahia */
 @font-face {
-  font-family: 'LeagueGothic';
-  src: url('type/LeagueGothic.eot');
-  src: url('type/LeagueGothic.eot?#iefix') format('embedded-opentype'),
-    url('type/LeagueGothic.woff') format('woff'),
-    url('type/LeagueGothic.ttf') format('truetype'),
-    url('type/LeagueGothic.svg#LeagueGothic13Regular') format('svg');
+font-family: 'LeagueGothic';
+src: url('type/LeagueGothic-Regular.otf');
+src: url('type/LeagueGothic.otf?#iefix') format('embedded-opentype'),
+/*url('type/LeagueGothic.otf') format('otf'),url('type/LeagueGothic.ttf') format('truetype'),
+url('type/LeagueGothic.svg#LeagueGothic13Regular') format('svg');*/
 }
 
+#mainbody {text-align: left; border-bottom: 1px solid black;}
+#secondiv{ min-height: 10px; overflow: hidden; border-top: 2px solid black}
 body{width: 950px;
-	color: black ;
-font-family: 'LeagueGothic'
+color: black ;
+font-family: "LeagueGothic";
 }
-.top{display: inline; text-decoration: none, black;}
-
-#navbar ul li{display:inline; text-align: right; text-decoration: bold;}
-
-nav{ display: inline; text-align: right; }
-
 ul{list-style-type: none;}
-
-
 a:hover {color: red; }
-	
 a{color: black; text-decoration: none; }
-
-
-
-#ilbody{position: relative;}
-
-
-#sidebar{float: left; display: inline-block; text-decoration: bold;}
-
-footer{ display: block; page-break-before: always; position: fixed;
+h3{ font-family: arial;}
+.top{display: inline; text-decoration: none, black;}
+#navbar ul{ padding-top: 61px
 }
+#navbar ul li{
+display:inline;
+text-align: right;
+font-style: bold;
+}
+h5{padding: none;
+margin-top: 25px;
+margin-bottom: -20px;}
+nav{
+display: block;
+width: 218px;
+float: right;
+}
+nav a{
+width: 20px;
+padding-left: 6px;
+font-weight: bold;
+}
+#sidebar{float: left; text-decoration: bold; width: 30%; min-height: 500px; font-weight: bold;	}
+#sidebar ul{
+margin: 0px;
+padding-right: 20px;
+padding-left: 3px;
+line-height: 25px;
+padding-top: 20px;
+}
+#sidebar ul li{
+margin: 0px;
+padding: 0px;
+}
+#ilbody{float: left; width: 70%; }
+footer{display: inline-block; position: fixed;
+}
+ul li a{ text-decoration: none;}
