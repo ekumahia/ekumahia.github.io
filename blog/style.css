@@ -11,7 +11,7 @@ url('type/LeagueGothic.svg#LeagueGothic13Regular') format('svg');*/
 #secondiv{ min-height: 10px; overflow: hidden; border-top: 2px solid black}
 body{width: 950px;
 color: black ;
-font-family: "LeagueGothic";
+font-family: "LeagueGothic"; background-color:86,119, 151
 }
 ul{list-style-type: none;}
 a:hover {color: red; }

@@ -1,0 +1,17 @@
+/* style.css by Elike */
+@font-face{
+  font-family: 'LeagueGothic';
+  src: url('type/LeagueGothic.eot');
+  src: url('type/LeagueGothic.eot?#iefix') format('embedded-opentype'),
+    url('type/LeagueGothic.woff') format('woff'),
+    url('type/LeagueGothic.ttf') format('truetype'),
+    url('type/LeagueGothic.svg#LeagueGothic13Regular') format('svg'); 
+}
+
+#navibar{display: inline-block; position: absolute; width: 600px;
+
+}
+body{ background-color: #ACA982;
+color: #2BE2B2;
+}    
+li{display: inline-block;}
